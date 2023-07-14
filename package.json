@@ -1,0 +1,18 @@
+{
+  "name": "rtmp-obs-socket-bot",
+  "version": "1.0.0",
+  "description": "Twitch bot which observes nginx stat website and detects if bitrate have dropped and automatically changes OBS scenes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "3xanax",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.1",
+    "obs-websocket-js": "^5.0.3",
+    "tmi.js": "^1.8.5",
+    "xml2js": "^0.6.0"
+  }
+}
